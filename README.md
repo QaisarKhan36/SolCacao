@@ -17,10 +17,10 @@ We built it as a team project for CSE 5335 (Web Data Management) at UT Arlington
 
 ## Tech
 
-- **Frontend:** React 19, Vite, Tailwind CSS
-- **Backend:** Node.js, Express 5, MySQL 8 (mysql2)
-- **Other:** JWT, bcrypt, Multer for uploads, Nodemailer, Helmet, express-rate-limit
-- **Tests:** 58 API tests with Node's built-in test runner
+- Frontend: React 19, Vite, Tailwind CSS
+- Backend: Node.js, Express 5, MySQL 8 (mysql2)
+- Other: JWT, bcrypt, Multer for uploads, Nodemailer, Helmet, express-rate-limit
+- Tests: 58 API tests with Node's built-in test runner
 
 ## How it's organized
 
@@ -44,7 +44,7 @@ A request goes route -> model -> MySQL. Routes check the input, models run the q
 
 You need Node.js 20.19+ and MySQL 8.
 
-**Backend**
+### Backend
 
 ```bash
 cd Backend
@@ -56,7 +56,7 @@ npm run dev
 
 Check http://localhost:3000/api/health. It should say the database is connected.
 
-**Frontend**
+### Frontend
 
 ```bash
 cd Frontend
@@ -69,7 +69,7 @@ Demo accounts (password `Cacao2026!` for both):
 - Retail: `maria.garcia@example.com`
 - B2B: `ramon.torres@chocolatier.com`
 
-**Tests**
+### Tests
 
 ```bash
 cd Backend
